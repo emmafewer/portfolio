@@ -16,9 +16,9 @@ export default function Home() {
               </div>
           </div>
           {/*About Section*/}
-          <div className={styles.test}>
-              <h1>About Me</h1>
-              <p>I am a full stack software engineer with a focus on the frontend. I love building...</p>
+          <div className={styles.test2}>
+              <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>About Me</h1>
+              <p className={`${lusitana.className}  mb-2 text-xl md:text-xl`}>I am a full stack software engineer with a focus on the frontend. I love building...</p>
           </div>
 
       </div>

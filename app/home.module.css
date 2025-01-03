@@ -9,3 +9,10 @@
         gap: 20px;
     }
 }
+
+.test2 {
+    display: grid;
+    padding: 40px;
+    gap: 20px;
+    background-color: #ef9baa;
+}
