@@ -1,0 +1,11 @@
+.test {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+
+    .column {
+        display: grid;
+        gap: 20px;
+    }
+}
