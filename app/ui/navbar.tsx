@@ -2,11 +2,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Button} from "@nextui-org/react";
-
+import styles from './navbar.module.css'
 
 export default function NavBar() {
     return (
-            <Navbar isBordered>
+            <Navbar className={styles.scallop}>
                 <NavbarBrand>
                     <Image src="/cat-typing3.png" alt="logo" width={70} height={70} />
                 </NavbarBrand>

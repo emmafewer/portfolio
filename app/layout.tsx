@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./ui/globals.css";
 import {inter} from "@/app/ui/fonts";
 import NavBar from "@/app/ui/navbar";
+import Footer from "@/app/ui/footer";
 
 export const metadata: Metadata = {
   title: "Emma Fewer",
@@ -20,6 +21,7 @@ export default function RootLayout({
       >
       <NavBar/>
         {children}
+      <Footer/>
       </body>
     </html>
   );

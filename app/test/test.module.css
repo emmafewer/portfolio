@@ -1,0 +1,8 @@
+.linearGradientTest {
+    height: 100vh;
+    /*
+    1. idea to remove footer and/or add these back in the front: #8b99bd, #929abb,
+    2. also could remove the scallop on the navbar.
+    */
+    background: linear-gradient(0deg, #caafb6, #c9aeb7, #d5c1ba, #cfc8bb, #c2d2d1, #a5d0f2, #8fc2f1, #5b92e2, #5b92e2 );
+}
