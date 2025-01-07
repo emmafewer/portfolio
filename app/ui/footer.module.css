@@ -20,3 +20,20 @@
     background-repeat: repeat-x;
     transform: rotate(180deg);
 }
+
+.footer {
+    padding-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    img {
+        transition: all 1s;
+        transform-origin: 50% 50%;
+    }
+
+    img:hover {
+        transform: scale(1.2);
+    }
+}
+

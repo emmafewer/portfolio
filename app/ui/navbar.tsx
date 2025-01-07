@@ -6,7 +6,7 @@ import styles from './navbar.module.css'
 
 export default function NavBar() {
     return (
-            <Navbar className={styles.scallop}>
+            <Navbar >
                 <NavbarBrand>
                     <Image src="/cat-typing3.png" alt="logo" width={70} height={70} />
                 </NavbarBrand>
