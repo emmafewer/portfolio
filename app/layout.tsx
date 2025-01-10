@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import "./ui/globals.css";
-import {inter} from "@/app/ui/fonts";
+import { openSans } from "@/app/ui/fonts";
 import NavBar from "@/app/ui/navbar";
+import Footer from "@/app/ui/footer";
 
 export const metadata: Metadata = {
   title: "Emma Fewer",
@@ -15,11 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.className} antialiased h-screen`}
-      >
-      <NavBar/>
-        {children}
+      <body className={`${openSans.className} antialiased h-full`}>
+        <div className={"grid gap-y-10"}>
+          <NavBar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );

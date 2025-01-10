@@ -1,8 +1,11 @@
-import {Inter, Lusitana} from "next/font/google";
+import { Open_Sans, Playfair_Display } from "next/font/google";
 
-export const inter = Inter({ subsets: ["latin"] });
+export const playfairDisplay = Playfair_Display({
+  weight: ["400"],
+  subsets: ["latin"],
+});
 
-export const lusitana = Lusitana({
-    weight: ["400", "700"],
-    subsets: ["latin"],
+export const openSans = Open_Sans({
+  weight: ["400"],
+  subsets: ["latin"],
 });
