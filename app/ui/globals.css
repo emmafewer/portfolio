@@ -3,46 +3,21 @@
 @tailwind utilities;
 
 :root {
-  /*--background: #f3b4bf;*/
-  /*--background: #cae9f3;*/
-  /*--background: #ffffff;*/
-  /*--background: #f1adb9;*/
-  /*
-1. idea to remove footer and/or add these back in the front: #8b99bd, #929abb,
-2. also could remove the scallop on the navbar.
-*/
-  /*background: linear-gradient(0deg, #caafb6, #c9aeb7, #d5c1ba, #cfc8bb, #c2d2d1, #a5d0f2, #8fc2f1, #5b92e2, #5b92e2 );*/
-  background: #fffcf3;
-  --foreground: #171717;
+    background: #fffcf3;
+    --foreground: #171717;
 }
 
-/*change this back to dark once dark mode is ready*/
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    :root {
+        --background: #0a0a0a;
+        --foreground: #fffcf3;
+    }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+    color: var(--foreground);
+    background: var(--background);
 
 }
 
-
-/*
-From sunset pic
-dark blue (beg): #8b99bd
-light dark blue: #929abb
-dark pink: #caafb6
-pink: #c9aeb7
-darker yellow: #d5c1ba   ---- not using
-yellow: #cfc8bb
-very light blue: #c2d2d1
-light blue: #a5d0f2
-blue: #8fc2f1
-dark blue: #5b92e2
-darkest blue: #497ecc
-*/
 
