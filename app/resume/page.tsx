@@ -13,7 +13,7 @@ export default function Page() {
               alt={"resume"}
               width={924}
               height={1188}
-              className={"h-auto w-auto"}
+              className={"h-auto"}
             ></Image>
           </Link>
         </CardBody>

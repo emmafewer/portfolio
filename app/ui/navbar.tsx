@@ -14,7 +14,7 @@ export default function NavBar() {
   const pathname = usePathname();
 
   return (
-    <Navbar maxWidth={"2xl"}>
+    <Navbar maxWidth={"2xl"} className={"px-0"}>
       <NavbarBrand>
         <Link href={"/"}>
           <Image

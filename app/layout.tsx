@@ -16,12 +16,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${openSans.className} antialiased h-full`}>
-        <div className={"grid gap-y-10"}>
+      <body className={`${openSans.className} antialiased`}>
+        {/*Add Providers back when theme toggle is working*/}
+        {/*<Providers>*/}
+        <main className={"flex flex-col p-2 min-h-screen gap-4 md:gap-10"}>
           <NavBar />
           {children}
           <Footer />
-        </div>
+        </main>
+        {/*</Providers>*/}
       </body>
     </html>
   );

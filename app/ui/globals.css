@@ -3,16 +3,19 @@
 @tailwind utilities;
 
 :root {
-    background: #fffcf3;
+    --background: #fffcf3;
     --foreground: #171717;
 }
 
+/*
+Add a dark mode toggle sometime
 @media (prefers-color-scheme: dark) {
     :root {
         --background: #0a0a0a;
         --foreground: #fffcf3;
     }
 }
+*/
 
 body {
     color: var(--foreground);

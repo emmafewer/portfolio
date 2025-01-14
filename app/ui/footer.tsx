@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className={"flex justify-center gap-5 pb-5"}>
+    <div className={"flex justify-center gap-5"}>
       <Link href={"https://github.com/emmafewer"} target={"_blank"}>
         <Image
           src={"/github.svg"}
@@ -26,6 +26,7 @@ export default function Footer() {
           }
         />
       </Link>
+      {/*<ThemeToggle />*/}
     </div>
   );
 }
