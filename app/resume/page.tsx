@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Card, CardBody } from "@nextui-org/card";
+import { Card, CardBody } from "@nextui-org/react";
 
 export default function Page() {
   return (
