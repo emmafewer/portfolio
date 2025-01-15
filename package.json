@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/card": "^2.2.9",
     "@nextui-org/navbar": "^2.2.7",
     "@nextui-org/react": "^2.6.10",
     "@nextui-org/switch": "^2.2.8",

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Card, CardBody } from "@nextui-org/react";
+import { Card, CardBody } from "@nextui-org/card";
 
 export default function Page() {
   return (
@@ -11,8 +11,8 @@ export default function Page() {
             <Image
               src={"/Fewer_Resume.jpg"}
               alt={"resume"}
-              width={924}
-              height={1188}
+              width={824}
+              height={1060}
               className={"h-auto"}
             ></Image>
           </Link>
