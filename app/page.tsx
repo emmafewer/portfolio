@@ -4,7 +4,11 @@ import ImageSwap from "@/app/ui/imageSwap";
 
 export default function Home() {
   return (
-    <div className={"flex flex-col px-6 md:px-24 lg:px-32 gap-10 md:gap-24"}>
+    <div
+      className={
+        "flex flex-col px-6 md:px-24 lg:px-32 2xl:px-56 gap-10 md:gap-24"
+      }
+    >
       {/*Heading Section*/}
       <div className={"flex flex-col sm:flex-row gap-x-10 gap-y-4"}>
         <Image
@@ -46,23 +50,27 @@ export default function Home() {
           >
             About Me
           </h1>
-          <span className={"flex flex-col lg:flex-row gap-10 lg:gap-20"}>
+          <span
+            className={"flex flex-col lg:flex-row gap-10 lg:gap-20 2xl:gap-40"}
+          >
             <p className={`text-l md:text-base`}>
-              I like to ride bikes. Road cycling is my favorite. I was
-              introduced to the sport in 2022 and was immediately hooked. Having
-              been a long distance runner since middle school cross country, the
-              stamina and pacing came naturally. But what really hooked me is
-              the team aspect of being in a pace line. In a pace line, you’re
-              following right behind one another in a single file line to get a
-              draft (assuming there isn’t a cross wind). The lead person will
-              pull off to the side and rotate to the back of the group, all
-              while still pedaling, and the next person will follow suit. It
-              creates this beautiful continuous loop, where when done right, you
-              won’t touch your brakes because everyone is doing the expected
-              consistent amount of pedaling. In a smooth pace line, it feels as
-              if time stands still even though you’re going 25 mph because
-              you’re all helping each other. It’s always special when you can be
-              in a meditative place while being alert and working hard.
+              I love to ride bikes. Mountain, gravel, road, and cyclocross - we
+              have it all here in Montana. But my favorite is road cycling
+              because I love the teamwork, coordination, and grit of being in a
+              pace line, as well as the strategic thinking for that perfectly
+              timed breakaway. Recently, I&#39;ve been coaching a cross-country
+              after school program for elementary kids.
+              <br />
+              <br />
+              The central theme between my personal and professional life is
+              human connection. Whether it&#39;s being a welcoming face to my
+              colleagues, collaborating with product and engineering teams to
+              design architectures that meet complex requirements, or working
+              closely with end users to create products they love using, I
+              thrive on building meaningful relationships. I enjoy the pressure
+              and excitement of delivering important features under tight
+              deadlines and excel in independently managing end-to-end app
+              development.
             </p>
             <ImageSwap />
           </span>
